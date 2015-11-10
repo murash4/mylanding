@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+html,
+body {
+  height: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  line-height: 0;
+  color: #000;
+}
+.basic_font {
+  font-weight: normal;
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.5;
+}
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: #000;
+}
+header nav {
+  overflow: hidden;
+  min-width: 580px;
+  max-width: 970px;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: auto 40px;
+  background-position: left center;
+  margin: 0 auto;
+  text-align: right;
+}
+header nav .title {
+  float: left;
+  margin-left: 60px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fff;
+  line-height: 41px;
+}
+header nav .title span {
+  color: #28B664;
+}
+header nav ul {
+  overflow: hidden;
+  float: right;
+  margin: 0 auto;
+}
+header nav ul li {
+  float: right;
+  padding: 10px 10px;
+}
+header nav ul li a {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+section {
+  width: 100%;
+  height: 100%;
+}
+#block1 {
+  background-color: #323232;
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+#block1 .content {
+  overflow: hidden;
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+#block1 .content .text {
+  margin-bottom: 30px;
+  font-weight: normal;
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 2.5em;
+}
+#block1 .content .button {
+  display: inline-block;
+  padding: 10px 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #28B664;
+  font-weight: normal;
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#block1 .content .phone,
+#block1 .content .mail {
+  width: 200px;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.5;
+  text-align: left;
+  text-decoration: none;
+}
+#block1 .content .phone {
+  cursor: default;
+}
+#block1 .content .phone:before {
+  content: "";
+  display: inline-block;
+  width: 21px;
+  height: 32px;
+  margin-left: 3px;
+  background-image: url("../img/iphone.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  vertical-align: middle;
+  margin-right: 14px;
+}
+#block1 .content .mail:before {
+  content: "";
+  display: inline-block;
+  width: 29px;
+  height: 21px;
+  background-image: url("../img/iphone.png");
+  background-image: url("../img/mail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+#block2 {
+  overflow: hidden;
+}
+#block2 .content {
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+#block2 .content .services {
+  overflow: hidden;
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+#block2 .content .services h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #000;
+  line-height: 1.5;
+}
+#block2 .content .services .item_wrap {
+  display: inline-block;
+  vertical-align: middle;
+}
+#block2 .content .services .item_wrap:nth-child(2) img {
+  width: 124px;
+  margin-bottom: 10px;
+}
+#block2 .content .services .item_wrap:nth-child(3) img {
+  width: 80px;
+  margin: 40px 0 50px;
+}
+#block2 .content .services .item_wrap:nth-child(4) img {
+  width: 200px;
+  margin: 46px 0 30px;
+}
+#block2 .content .services .item_wrap:nth-child(5) img {
+  width: 200px;
+  margin: 27px 0 10px;
+}
+#block2 .content .services .item_wrap:nth-child(6) img {
+  width: 200px;
+  margin: 47px 0 36px;
+}
+#block2 .content .services .item_wrap:last-child img {
+  width: 60px;
+  margin: 47px 0 40px;
+}
+#block2 .content .services .item_wrap .item {
+  width: 330px;
+  margin: 0 auto;
+}
+#block2 .content .services .item_wrap .item .text {
+  font-weight: normal;
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #000;
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+#block3 {
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+}
+#block3 .content {
+  display: table-cell;
+  overflow: hidden;
+  max-width: 970px;
+  vertical-align: middle;
+  text-align: center;
+}
+#block3 .content h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #000;
+  line-height: 1.5;
+}
+#block3 .content .item {
+  display: inline-block;
+  width: 300px;
+  height: 220px;
+  margin: 0 15px 30px;
+}
+#block3 .content .item .top {
+  display: table;
+  width: 100%;
+  height: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#block3 .content .item .top:hover .layout {
+  display: table-cell;
+}
+#block3 .content .item .top .layout {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 182, 100, 0.4);
+  text-align: center;
+  vertical-align: middle;
+}
+#block3 .content .item .top .layout a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #28B664;
+  font-weight: normal;
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#block3 .content .item .bottom {
+  display: table;
+  width: 100%;
+  height: 30%;
+}
+#block3 .content .item .bottom .wrapA {
+  display: table-cell;
+  background-color: #999;
+  text-align: center;
+  vertical-align: middle;
+}
+#block3 .content .item .bottom .wrapA a {
+  margin: 0 15px;
+  color: #000;
+  line-height: 1.5;
+  text-decoration: none;
+}

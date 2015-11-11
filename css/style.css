@@ -298,6 +298,9 @@ section {
   margin: 0 15px;
   color: #000;
   line-height: 1.5;
+  text-decoration: underline;
+}
+#block3 .content .item .bottom .wrapA a:hover {
   text-decoration: none;
 }
 #block4 {

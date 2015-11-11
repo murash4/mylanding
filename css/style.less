@@ -164,18 +164,16 @@ section {
 }
 #block2 {
 	overflow: hidden;
+	display: table;
 	.content {
 		overflow: hidden;
-		display: table;
+		display: table-cell;
 		width: 100%;
+		height: 100%;
 		text-align: center;
+		vertical-align: middle;
 		.services {
 			overflow: hidden;
-			display: table-cell;
-			width: 100%;
-			height: 100%;
-			vertical-align: middle;
-			text-align: center;
 			h1 {
 				margin-bottom: 20px;
 				font-weight: bold;
@@ -306,6 +304,106 @@ section {
 						color: #000;
 						line-height: 1.5;
 						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+}
+#block4 {
+	overflow: hidden;
+	display: table;
+	width: 100%;
+	height: 100%;
+	background-color: #323232;
+	.content {
+		display: table-cell;
+		overflow: hidden;
+		max-width: 970px;
+		vertical-align: middle;
+		text-align: center;
+		h1 {
+			margin-bottom: 20px;
+			font-weight: bold;
+			font-size: 35px * 1em / @main_size;
+			color: #fff;
+			line-height: 1.5;
+		}
+		.wrap {
+			display: inline-block;
+			text-align: left;
+			ul {
+				li {
+					.basic_font;
+					font-size: 21px * 1em / @main_size;
+					color: #fff;
+					&:before {
+						content: "";
+						display: inline-block;
+						width: 28px;
+						height: 26px;
+						vertical-align: middle;
+						.bg_img("../img/check_mark.png", no-repeat, contain, center center);
+						margin-right: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+#block5 {
+	overflow: hidden;
+	display: table;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	.content {
+		display: table-cell;
+		overflow: hidden;
+		max-width: 970px;
+		vertical-align: middle;
+		text-align: center;
+		h1 {
+			margin-bottom: 20px;
+			font-weight: bold;
+			font-size: 35px * 1em / @main_size;
+			color: #000;
+			line-height: 1.5;
+		}
+		.wrap {
+			display: inline-block;
+			text-align: left;
+			ul {
+				overflow: hidden;
+				li {
+					float: left;
+					padding: 15px 0;
+					&:nth-child(odd) {
+						width: 160px;
+						div:first-child {text-align: center;}
+						div:last-child {
+							.basic_font;
+							color: #000;
+							text-align: center;
+						}
+					}
+					&:nth-child(even) {
+						position: relative;
+						width: 50px;
+						height: 136px;
+						img {
+							position: absolute;
+							top: 0;
+							right: 0;
+							bottom: 0;
+							left: 0;
+							margin: auto;
+							&:first-child {width: 50px;}
+							&:last-child {
+								display: none;
+								height: 50px;
+							}
+						}
 					}
 				}
 			}

@@ -159,20 +159,18 @@ section {
 }
 #block2 {
   overflow: hidden;
+  display: table;
 }
 #block2 .content {
-  overflow: hidden;
-  display: table;
-  width: 100%;
-  text-align: center;
-}
-#block2 .content .services {
   overflow: hidden;
   display: table-cell;
   width: 100%;
   height: 100%;
-  vertical-align: middle;
   text-align: center;
+  vertical-align: middle;
+}
+#block2 .content .services {
+  overflow: hidden;
 }
 #block2 .content .services h1 {
   margin-bottom: 20px;
@@ -301,4 +299,114 @@ section {
   color: #000;
   line-height: 1.5;
   text-decoration: none;
+}
+#block4 {
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: #323232;
+}
+#block4 .content {
+  display: table-cell;
+  overflow: hidden;
+  max-width: 970px;
+  vertical-align: middle;
+  text-align: center;
+}
+#block4 .content h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #fff;
+  line-height: 1.5;
+}
+#block4 .content .wrap {
+  display: inline-block;
+  text-align: left;
+}
+#block4 .content .wrap ul li {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.5;
+  font-size: 1.5em;
+  color: #fff;
+}
+#block4 .content .wrap ul li:before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 26px;
+  vertical-align: middle;
+  background-image: url("../img/check_mark.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 10px;
+}
+#block5 {
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+#block5 .content {
+  display: table-cell;
+  overflow: hidden;
+  max-width: 970px;
+  vertical-align: middle;
+  text-align: center;
+}
+#block5 .content h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #000;
+  line-height: 1.5;
+}
+#block5 .content .wrap {
+  display: inline-block;
+  text-align: left;
+}
+#block5 .content .wrap ul {
+  overflow: hidden;
+}
+#block5 .content .wrap ul li {
+  float: left;
+  padding: 15px 0;
+}
+#block5 .content .wrap ul li:nth-child(odd) {
+  width: 160px;
+}
+#block5 .content .wrap ul li:nth-child(odd) div:first-child {
+  text-align: center;
+}
+#block5 .content .wrap ul li:nth-child(odd) div:last-child {
+  font-weight: normal;
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.5;
+  color: #000;
+  text-align: center;
+}
+#block5 .content .wrap ul li:nth-child(even) {
+  position: relative;
+  width: 50px;
+  height: 136px;
+}
+#block5 .content .wrap ul li:nth-child(even) img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+#block5 .content .wrap ul li:nth-child(even) img:first-child {
+  width: 50px;
+}
+#block5 .content .wrap ul li:nth-child(even) img:last-child {
+  display: none;
+  height: 50px;
 }

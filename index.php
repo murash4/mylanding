@@ -19,8 +19,8 @@
 				<div class="title"><span>singleant</span>.ru</div>
 				<ul>
 					<li><a href="#">Контакты</a></li>
-					<li><a href="#">Порядок работы</a></li>
-					<li><a href="#">Почему я</a></li>
+					<li><a href="#block5">Порядок работы</a></li>
+					<li><a href="#block4">Почему я</a></li>
 					<li><a href="#block3">Портфолио</a></li>
 					<li><a href="#block2">Услуги</a></li>
 				</ul>
@@ -145,6 +145,67 @@
 		<section id="block4">
 			<div class="content">
 				<h1>Почему я</h1>
+				<div class="wrap">
+					<ul>
+						<li>Выполнение точно в срок и без задержек;</li>
+						<li>Оперативное реагирование на ваши замечания и требования доработок;</li>
+						<li>Бесплатное консультирование после выполнения заказа;</li>
+						<li>Демократические цены: стоимость одного часа работы составляет от 5 до 10 у.е.</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="block5">
+			<div class="content">
+				<h1>Порядок моей работы</h1>
+				<div class="wrap">
+					<ul>
+						<li>
+							<div><img src="img/step1.png" /></div>
+							<div>Вы оставляете заявку или связываетесь со мной по контактам, указанным на сайте</div>
+						</li>
+						<li>
+							<img src="img/arrow_right.png" />
+							<img src="img/arrow_bottom.png" />
+						</li>
+						<li>
+							<div><img src="img/step2.png" /></div>
+							<div>Я связываюсь с Вами, и мы обговариваем все детали</div>
+						</li>
+						<li>
+							<img src="img/arrow_right.png" />
+							<img src="img/arrow_bottom.png" />
+						</li>
+						<li>
+							<div><img src="img/step3.png" /></div>
+							<div>Вы предоставляете техническое задание или я помогаю Вам его составить</div>
+						</li>
+						<li>
+							<img src="img/arrow_right.png" />
+							<img src="img/arrow_bottom.png" />
+						</li>
+						<li>
+							<div><img src="img/step4.png" /></div>
+							<div>Вы вносите небольшую предоплату (всего 30% от общей стоимости)</div>
+						</li>
+						<li>
+							<img src="img/arrow_right.png" />
+							<img src="img/arrow_bottom.png" />
+						</li>
+						<li>
+							<div><img src="img/step5.png" /></div>
+							<div>Я предоставляю предварительную верстку по техническому заданию</div>
+						</li>
+						<li>
+							<img src="img/arrow_right.png" />
+							<img src="img/arrow_bottom.png" />
+						</li>
+						<li>
+							<div><img src="img/step6.png" /></div>
+							<div>Вы оплачиваете оставшуюся сумму и получаете готовую верстку</div>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</section>
 	</body>

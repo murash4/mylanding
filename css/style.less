@@ -411,3 +411,117 @@ section {
 		}
 	}
 }
+#block6 {
+	position: relative;
+	overflow: hidden;
+	display: table;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	.content {
+		display: table-cell;
+		overflow: hidden;
+		max-width: 970px;
+		vertical-align: middle;
+		text-align: center;
+		h1 {
+			margin-bottom: 20px;
+			font-weight: bold;
+			font-size: 35px * 1em / @main_size;
+			color: #000;
+			line-height: 1.5;
+		}
+		form {
+			overflow: hidden;
+			max-width: 700px;
+			margin: 0 auto 80px;
+			.left_block {
+				float: left;
+				width: 49%;
+			}
+			.right_block {
+				float: right;
+				width: 49%;
+			}
+			label {
+				.basic_font;
+				font-weight: bold;
+				color: #000;
+			}
+			input,
+			textarea {
+				height: 30px;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+				font-family: Verdana;
+				.basic_font;
+				color: #000;
+			}
+			input:focus,
+			textarea:focus {
+				outline: none;
+			}
+			input:-webkit-autofill,
+			textarea:-webkit-autofill {
+				-webkit-box-shadow: inset 0 0 0 50px #fff !important;
+				-webkit-text-fill-color: #000 !important;
+				color: #000 !important;
+			}
+			input {
+				width: 80%;
+				height: 30px;
+				padding: 0 10px;
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			textarea {
+				width: 80%;
+				min-width: 80%;
+				max-width: 80%;
+				min-height: 136px;
+				padding: 10px;
+				margin-bottom: 10px;
+			}
+			.note {
+				clear: both;
+				.basic_font;
+				color: #000;
+				font-size: 12px * 1em / @main_size;
+			}
+			button {
+				padding: 10px 20px;
+				margin-top: 20px;
+				border: none;
+				.border-radius(5px);
+				background-color: #28B664;
+				.basic_font;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				cursor: pointer;
+			}
+			.send {
+				display: none;
+				margin-top: 20px;
+				.basic_font;
+				color: #000;
+			}
+		}
+	}
+	footer {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: #323232;
+		text-align: center;
+		span {
+			display: inline-block;
+			margin: 10px 0;
+			.basic_font;
+			font-size: 12px;
+			color: #666;
+		}
+		
+	}
+}

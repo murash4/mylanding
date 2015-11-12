@@ -18,7 +18,7 @@
 			<nav>
 				<div class="title"><span>singleant</span>.ru</div>
 				<ul>
-					<li><a href="#">Контакты</a></li>
+					<li><a href="#block6">Контакты</a></li>
 					<li><a href="#block5">Порядок работы</a></li>
 					<li><a href="#block4">Почему я</a></li>
 					<li><a href="#block3">Портфолио</a></li>
@@ -207,6 +207,31 @@
 					</ul>
 				</div>
 			</div>
+		</section>
+		<section id="block6">
+			<div class="content">
+				<h1>Контакты</h1>
+				<form action="mail.php">
+					<div class="left_block">
+						<label for="name">Имя*</label><br />
+						<input type="text" id="name" name="name" /><br />
+						<label for="email">Email*</label><br />
+						<input type="email" novalidate id="email" name="email" /><br />
+						<label for="phone">Телефон*</label><br />
+						<input type="text" novalidate id="phone" name="phone" />
+					</div>
+					<div class="right_block">
+						<label for="message">Сообщение*</label><br />
+						<textarea name="message" id="message"></textarea>
+					</div>
+					<div class="note">* Поля обязательны для заполнения</div>
+					<button type="submit" id="submit" name="submit">Отправить</button>
+					<div class="send">Ваше сообщение отправлено</div>
+				</form>
+			</div>
+			<footer>
+				<span>Верстка сайтов © 2015<br />Копирование материалов только с разрешения правообладателя</span>
+			</footer>
 		</section>
 	</body>
 </html>

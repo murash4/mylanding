@@ -23,6 +23,7 @@
 					<li><a href="#block4">Почему я</a></li>
 					<li><a href="#block3">Портфолио</a></li>
 					<li><a href="#block2">Услуги</a></li>
+					<li><a href="#block1">Главная</a></li>
 				</ul>
 			</nav>
 		</header>

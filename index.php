@@ -11,11 +11,12 @@
 		<title>Верстка сайтов на заказ</title>
 		<link rel="stylesheet" href="css/style.css">
 		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/jquery.maskedinput.min.js"></script>
 		<script src="js/scripts.js"></script>
 	</head>
 	<body>
 		<header>
-			<nav>
+			<nav class="desktop">
 				<div class="title"><span>singleant</span>.ru</div>
 				<ul>
 					<li><a href="#block6">Контакты</a></li>
@@ -24,6 +25,18 @@
 					<li><a href="#block3">Портфолио</a></li>
 					<li><a href="#block2">Услуги</a></li>
 					<li><a href="#block1">Главная</a></li>
+				</ul>
+			</nav>
+			<nav class="mobile">
+				<div class="title"><span>singleant</span>.ru</div>
+				<img src="img/menu.png" class="menu">
+				<ul>
+					<li><a href="#block1">Главная</a></li>
+					<li><a href="#block2">Услуги</a></li>
+					<li><a href="#block3">Портфолио</a></li>
+					<li><a href="#block4">Почему я</a></li>
+					<li><a href="#block5">Порядок работы</a></li>
+					<li><a href="#block6">Контакты</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -160,52 +173,50 @@
 			<div class="content">
 				<h1>Порядок моей работы</h1>
 				<div class="wrap">
-					<ul>
-						<li>
+						<span>
 							<div><img src="img/step1.png" /></div>
 							<div>Вы оставляете заявку или связываетесь со мной по контактам, указанным на сайте</div>
-						</li>
-						<li>
+						</span>
+						<span>
 							<img src="img/arrow_right.png" />
 							<img src="img/arrow_bottom.png" />
-						</li>
-						<li>
+						</span>
+						<span>
 							<div><img src="img/step2.png" /></div>
 							<div>Я связываюсь с Вами, и мы обговариваем все детали</div>
-						</li>
-						<li>
+						</span>
+						<span>
 							<img src="img/arrow_right.png" />
 							<img src="img/arrow_bottom.png" />
-						</li>
-						<li>
+						</span>
+						<span>
 							<div><img src="img/step3.png" /></div>
 							<div>Вы предоставляете техническое задание или я помогаю Вам его составить</div>
-						</li>
-						<li>
+						</span>
+						<span>
 							<img src="img/arrow_right.png" />
 							<img src="img/arrow_bottom.png" />
-						</li>
-						<li>
+						</span>
+						<span>
 							<div><img src="img/step4.png" /></div>
 							<div>Вы вносите небольшую предоплату (всего 20% от общей стоимости)</div>
-						</li>
-						<li>
+						</span>
+						<span>
 							<img src="img/arrow_right.png" />
 							<img src="img/arrow_bottom.png" />
-						</li>
-						<li>
+						</span>
+						<span>
 							<div><img src="img/step5.png" /></div>
 							<div>Я предоставляю предварительную верстку по техническому заданию</div>
-						</li>
-						<li>
+						</span>
+						<span>
 							<img src="img/arrow_right.png" />
 							<img src="img/arrow_bottom.png" />
-						</li>
-						<li>
+						</span>
+						<span>
 							<div><img src="img/step6.png" /></div>
 							<div>Вы оплачиваете оставшуюся сумму и получаете готовую верстку</div>
-						</li>
-					</ul>
+						</span>
 				</div>
 			</div>
 		</section>

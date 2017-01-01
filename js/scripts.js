@@ -11,10 +11,7 @@ $(function() {
 		}
 		var target = $(this).attr("href");
 		var targetST = $(target).offset().top;
-		if(!$("body").hasClass("scroll")) {
-			easyScroll(targetST, 7);
-		}
-		
+        $("html, body").animate({ scrollTop: targetST }, 500);
 	});
 	$("nav.mobile .menu").click(function() {
 		if($(this).next().hasClass("show")) {
@@ -81,34 +78,6 @@ $(function() {
 		}
 	});
 });
-
-function easyScroll(targetST, stepScroll, nowST) {
-	$("body").addClass("scroll");
-	var nowST = $(document).scrollTop();
-	if(targetST > nowST) {
-		setTimeout(function(){
-			$(document).scrollTop(nowST + stepScroll);
-			nowST = nowST + stepScroll;
-			if(targetST - nowST < stepScroll) {
-				stepScroll = targetST - nowST
-			}
-			easyScroll(targetST, stepScroll, nowST);
-		}, 10);
-	}
-	if(targetST < nowST) {
-		setTimeout(function(){
-			$(document).scrollTop(nowST - stepScroll);
-			nowST = nowST - stepScroll;
-			if(nowST - targetST < stepScroll) {
-				stepScroll = nowST - targetST
-			}
-			easyScroll(targetST, stepScroll, nowST);
-		}, 10);
-	}
-	if(targetST == nowST) {
-		$("body").removeClass("scroll");
-	}
-}
 
 function validateName(element){
 	var value = $(element).val();

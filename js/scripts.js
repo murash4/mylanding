@@ -29,6 +29,10 @@ $(function() {
 			);
 		}
 	});
+	$("#order").click(function(e) {
+		e.preventDefault();
+		$("html, body").animate({ scrollTop: $("#block6").offset().top }, 500);
+	});
 	$(document).mouseup (function(e) {
 		if (($(e.target).closest("nav.mobile .menu").length === 0) && ($(e.target).closest("nav.mobile li a").length === 0)) {
 			$("nav.mobile ul").removeClass("show").animate({
